@@ -132,4 +132,5 @@ dmypy.json
 ./env
 
 ## MLRun Folder
-mlruns
+mlruns/
+temp/
