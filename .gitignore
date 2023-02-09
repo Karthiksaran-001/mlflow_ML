@@ -130,3 +130,6 @@ dmypy.json
 
 ## python Environment folder
 ./env
+
+## MLRun Folder
+mlruns
