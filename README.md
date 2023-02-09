@@ -12,3 +12,7 @@ conda create --prefix ./env python==3.7 -y && conda activate ./env
 ```
 pip install mlflow
 ```
+## Run Python file
+```
+python demo.py --param1 20  --param2 10
+```
