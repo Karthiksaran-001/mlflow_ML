@@ -4,5 +4,8 @@ channels:
 dependencies:
   - pip
   - python=3.7.0
+  - scikit-learn
+  - pandas
+  - numpy
   - pip:
       - mlflow==1.30.0
