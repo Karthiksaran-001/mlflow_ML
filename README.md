@@ -16,3 +16,12 @@ pip install mlflow
 ```
 python demo.py --param1 20  --param2 10
 ```
+## create Conda file
+```
+conda env export > conda.yaml
+```
+
+## To Run
+```
+mlflow run . --no-conda
+```
