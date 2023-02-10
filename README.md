@@ -17,3 +17,8 @@ pip install mlflow
 python demo.py 
 ```
 
+## To test the model using ui
+
+```
+mlflow models serve -m F:/AIOPS/ML-Flow/mlflow_ML/mlruns/0/0df96c7b964b47c789d47e469f915226/artifacts/model/ -p 1234
+```
