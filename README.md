@@ -1,4 +1,4 @@
-# mlflow_basics
+# mlflow WineQuality Dataset
 Starting with ML-Flow
 
 ## Create a new python Environment and activate 
@@ -14,14 +14,6 @@ pip install mlflow
 ```
 ## Run Python file
 ```
-python demo.py --param1 20  --param2 10
-```
-## create Conda file
-```
-conda env export > conda.yaml
+python demo.py 
 ```
 
-## To Run
-```
-mlflow run . --no-conda
-```

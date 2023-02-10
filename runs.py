@@ -1,8 +1,14 @@
 import os
+import numpy as np
 
-a, b = range(0,5) , range(0,5)
+alpha = np.linspace(0.1 , 1.0 ,5 )
+l1_ratio = np.linspace(0.1 , 1.0 ,5)
 
-for i in a:
-    for j in b:
-        print(f"logging experiment {i} : {j}")
-        os.system(f"python demo.py -p1 {i} -p2 {j}")
+
+
+for i in alpha:
+    for j in l1_ratio:
+        print(f"logging experiment alpha: {i} l1_ratio: {j}")
+        os.system(f"python demo.py -a {i} -l1 {j}")
+
+
